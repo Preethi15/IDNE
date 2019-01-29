@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.volvo.mfg.test.TestIDNELoginPage">
+        <methods>
+          <include name="endTest"/>
+          <include name="afterMethods"/>
+          <include name="setUp"/>
+          <include name="cleanUp"/>
+          <include name="IdneSearchEquipment" invocation-numbers="0"/>
+          <include name="startTest"/>
+          <include name="InitTestMethod"/>
+        </methods>
+      </class> <!-- com.volvo.mfg.test.TestIDNELoginPage -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

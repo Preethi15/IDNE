@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="MFG Suite" parallel="tests" thread-count="2">
+ 
+ <parameter name="pdfngreport-properties" value="pdfngreport.properties" />
+  
+    <listeners>
+        <listener class-name="com.uttesh.pdfngreport.PDFReportListener" />
+    </listeners>
+   <!-- browser = IE, CHROME, FIREFOX -->
+  <test name="IDNEFLOW" >
+  <parameter name="appURL" value="https://idneq.volvocars.biz/IDNE/"/>
+
+  <parameter name="browser" value="IE"/>
+  <classes>
+      
+       <!-- <class name="com.volvo.mfg.test.TestIDNELoginPage"/> -->
+         <class name="com.volvo.mfg.test.IDNESearchEquipmentPage"/>
+      
+      
+      </classes>
+     </test>
+       
+     
+ 
+</suite> <!-- Suite -->

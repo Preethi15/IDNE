@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="0" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="MFG Suite" duration-ms="1473" started-at="2018-10-16T09:01:40Z" finished-at="2018-10-16T09:01:41Z">
+    <groups>
+    </groups>
+    <test name="AGVFLOW" duration-ms="1473" started-at="2018-10-16T09:01:40Z" finished-at="2018-10-16T09:01:41Z">
+      <class name="com.volvo.mfg.test.TestLoginPages">
+        <test-method status="PASS" signature="startTest()[pri:0, instance:com.volvo.mfg.test.TestLoginPages@59fa1d9b]" name="startTest" is-config="true" duration-ms="486" started-at="2018-10-16T14:31:40Z" finished-at="2018-10-16T14:31:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.volvo.mfg.test.TestLoginPages@59fa1d9b]" name="setUp" is-config="true" duration-ms="234" started-at="2018-10-16T14:31:40Z" finished-at="2018-10-16T14:31:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:com.volvo.mfg.test.TestLoginPages@59fa1d9b]" name="cleanUp" is-config="true" duration-ms="643" started-at="2018-10-16T14:31:40Z" finished-at="2018-10-16T14:31:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.volvo.mfg.test.TestLoginPages@59fa1d9b]" name="endTest" is-config="true" duration-ms="0" started-at="2018-10-16T14:31:41Z" finished-at="2018-10-16T14:31:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.volvo.mfg.test.TestLoginPages -->
+    </test> <!-- AGVFLOW -->
+  </suite> <!-- MFG Suite -->
+</testng-results>
